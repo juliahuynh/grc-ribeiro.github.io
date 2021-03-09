@@ -4,18 +4,13 @@ img {
     width: 100%; 
 }
 
-/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
-/*
 body{
 	background-color: #FAF8F7;
-}*/
+}
 
 div.container{
 	max-width: 30em;
 	margin: auto;
-}
-
-footer{
 }
 
 figure{
