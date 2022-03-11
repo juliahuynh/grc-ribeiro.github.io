@@ -1,0 +1,135 @@
+<!doctype html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" href="https://use.typekit.net/oiz7vna.css">
+            <title>Taste: Southern California</title> <!-- ★ Please include a proper title.-->
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+        </head> 
+
+        <body>
+            <div class="container">
+                <header>
+                    <a href="index.html">
+                        <h1> <img src="tasteLogo.png" alt="Logo of Taste Magazine."> </h1> <!-- ★ Please use a proper alt attribute.-->
+                        </a>
+                    <nav>
+                        <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                            <li><a href="#">Restaurants</a></li>
+                            <li><a href="#">Desserts</a></li>
+                            <li><a href="#">Bars</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <section class="news">
+                    <img src = "newsletterbutton.png" alt="Subscribe to our Newsletter.">
+                    <form>
+                        <section class = "personal-info">
+                            <h2> Personal Information </h2>
+                            <ul>
+                                <li><label for="name">Name:</label> <input class = "newsletterinput" type="text" name="name" id="name" placeholder="your full name" /></li>
+                                <li><label for="email">Email:</label> <input class = "newsletterinput" type="email" name="email" id="email" placeholder="email" /></li>
+                            </ul>
+                            </section>
+                        <section class="newsletter-type">
+                                <h2>Newsletter Options</h2>
+                                <p>Taste: Southern California Scoop: Get news updates straight to your inbox!</p>
+                                <p>Taste: Southern California Deals: Get restaurant deals and coupons exclusive to subscribers!</p>
+                                <p>Taste: Southern California Events: View and recieve notifications on all the latest and newest food events!</p>
+                                <p>Taste: Southern California Feedback: Participate in surveys to help us create better content for you!</p>
+                                <ul>
+                                    <li><input type="checkbox" id="news" value="news" name="Taste-Scoop" /> <label for="Taste-Scoop">Taste: Southern California Scoop</label></li>
+                                    <li><input type="checkbox" id="deals" value="deals" name="Taste-Deals" /> <label for="Taste-Deals">Taste: Southern California Deals</label></li>
+                                    <li><input type="checkbox" id="events" value="events" name="Taste-Events" /> <label for="Taste-Events">Taste: Southern California Events</label></li>
+                                    <li><input type="checkbox" id="events" value="events" name="Taste-Feedback" /> <label for="Taste-Feedback">Taste: Southern California Feedback </label></li>                        
+                                </ul>
+                            </section>
+                        <section class = "gifts">
+                            <h2>Gifts (Optional)</h2>
+                            <p>We would love to send you a token of our appreciate for subscribing to us!</p>
+                            <ul>
+                            <li><label for="street-address">Street address:</label> <input class = "newsletterinput" type="text" name="street-address" id="street-address" placeholder="your street address" /></li>
+                                <li><label for="city">City:</label> <input class = "newsletterinput" type="text" name="city" id="city" placeholder="city" /></li>
+                                <li>
+                                    <label for="state">State:</label>
+                                    <select id="state" name="state">
+                                        <option value=""></option>
+                                        <option value="AL">Alabama</option>
+                                        <option value="AK">Alaska</option>
+                                        <option value="AZ">Arizona</option>
+                                        <option value="AR">Arkansas</option>
+                                        <option value="CA">California</option>
+                                        <option value="CO">Colorado</option>
+                                        <option value="CT">Connecticut</option>
+                                        <option value="DE">Delaware</option>
+                                        <option value="DC">District Of Columbia</option>
+                                        <option value="FL">Florida</option>
+                                        <option value="GA">Georgia</option>
+                                        <option value="HI">Hawaii</option>
+                                        <option value="ID">Idaho</option>
+                                        <option value="IL">Illinois</option>
+                                        <option value="IN">Indiana</option>
+                                        <option value="IA">Iowa</option>
+                                        <option value="KS">Kansas</option>
+                                        <option value="KY">Kentucky</option>
+                                        <option value="LA">Louisiana</option>
+                                        <option value="ME">Maine</option>
+                                        <option value="MD">Maryland</option>
+                                        <option value="MA">Massachusetts</option>
+                                        <option value="MI">Michigan</option>
+                                        <option value="MN">Minnesota</option>
+                                        <option value="MS">Mississippi</option>
+                                        <option value="MO">Missouri</option>
+                                        <option value="MT">Montana</option>
+                                        <option value="NE">Nebraska</option>
+                                        <option value="NV">Nevada</option>
+                                        <option value="NH">New Hampshire</option>
+                                        <option value="NJ">New Jersey</option>
+                                        <option value="NM">New Mexico</option>
+                                        <option value="NY">New York</option>
+                                        <option value="NC">North Carolina</option>
+                                        <option value="ND">North Dakota</option>
+                                        <option value="OH">Ohio</option>
+                                        <option value="OK">Oklahoma</option>
+                                        <option value="OR">Oregon</option>
+                                        <option value="PA">Pennsylvania</option>
+                                        <option value="RI">Rhode Island</option>
+                                        <option value="SC">South Carolina</option>
+                                        <option value="SD">South Dakota</option>
+                                        <option value="TN">Tennessee</option>
+                                        <option value="TX">Texas</option>
+                                        <option value="UT">Utah</option>
+                                        <option value="VT">Vermont</option>
+                                        <option value="VA">Virginia</option>
+                                        <option value="WA">Washington</option>
+                                        <option value="WV">West Virginia</option>
+                                        <option value="WI">Wisconsin</option>
+                                        <option value="WY">Wyoming</option>
+                                    </select>
+                                </li>
+                                <li><label for="street-address">Zip code:</label> <input class = "newsletterinput" type="text" name="zip-code" id="zip-code" placeholder="zip code" /></li>
+                            </ul>
+                        </section>
+                        <section class = "submit">
+                            <button type="submit">Subscribe</button>
+                        </section>
+
+                
+                </section>
+
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>
+            </div>
+        </body>
+    </html>
+
+
